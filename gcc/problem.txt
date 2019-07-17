@@ -1,0 +1,3 @@
+gcc file.c	//没有选项 做了什么?
+	Compile and link source file hello.c into executable a.exe (Windows) or a (Unixes) 
+	the default output executable is called "a.exe" (Windows) or "a.out" (Unixes and Mac OS X).

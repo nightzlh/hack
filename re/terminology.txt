@@ -1,0 +1,7 @@
+cracking
+	 To crack a program, means to trace and use a serial number or any other sort of registration information, required for the proper operation of a program.
+
+ISA Instruction Set Architecture .
+
+patch
+	A patch is a set of changes to a computer program or its supporting data designed to update, fix, or improve it.[1] This includes fixing security vulnerabilities[1] and other bugs, with such patches usually being called bugfixes or bug fixes,[2][better source needed] and improving the functionality, usability or performance.

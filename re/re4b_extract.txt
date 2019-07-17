@@ -1,0 +1,16 @@
+optimization levels and debug infomation
+	One of the important features of the ´debug’ code is that it might contain links between each line of the source code and its respective machine code address. Optimizing compilers, on the other hand, tend to produce output where entire lines of source code can be optimized away and thus not even be present in the resulting machine code.
+
+ISA
+	The x86 ISA has always had variable-length instructions.
+
+ARM and ARM mode
+ 	ARM is a RISC4 CPU designed with constant-length instructions in mind.In the very beginning, all ARM instructions were encoded in 4 bytes. This is now referred to as “ARM mode”.
+
+Thumb and Thumb mode
+	each instruction was encoded in just 2 bytes. This is now referred to as “Thumb mode”.It is worth noting that code compiled for ARM mode and Thumb mode can coexist within one single program
+
+Extended Thumb
+	giving rise to Thumb-2, which appeared in ARMv7.Thumb-2 still uses 2-byte instructions, but has some new instructions which have the size of 4 bytes.
+	However, the 64-bit requirements affected the ISA, resulting in us now having three ARM instruction sets: ARM mode, Thumb mode (including Thumb-2) and ARM64. These ISAs intersect partially, but
+it can be said that they are different ISAs, rather than variations of the same one.
