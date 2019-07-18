@@ -1,0 +1,12 @@
+_DEBUG
+	void dbg_print (const char *fmt, ...)
+	{
+		#ifdef _DEBUG
+			// open log file
+			// write to log file
+			// close log file
+		#endif
+	};
+
+	In a non-debug build (as in a “release”), _DEBUG is not defined, so the dbg_print() function, despite still being called during execution, will be empty.
+

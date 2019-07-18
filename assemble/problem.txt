@@ -1,0 +1,27 @@
+to understand this assemble segment
+	CONST   SEGMENT							CONST (for data constants)
+	$SG3830 DB      'hello, world', 0AH, 00H
+	CONST   ENDS
+	PUBLIC  _main
+	EXTRN   _printf:PROC
+	; Function compile flags: /Odtp
+	_TEXT   SEGMENT							_TEXT (for code)
+	_main   PROC
+        	push    ebp
+	        mov     ebp, esp
+    	    push    OFFSET $SG3830
+        	call    _printf
+	        add     esp, 4
+    	    xor     eax, eax
+        	pop     ebp
+	        ret     0
+	_main   ENDP
+	_TEXT   ENDS
+
+
+msvc2010 command
+
+cl 1.cpp /Fa1.asm
+	The /Fa option instructs the compiler to generate an assembly listing file
+
+     
