@@ -1,1 +1,35 @@
 https://xz.aliyun.com/t/2701
+
+
+Book
+	The Web Application Hacker’s Handbook
+	OWASP Testing Guide v4
+	Penetration Testing
+	The Hacker Playbook 2: Practical Guide to Penetration Testing
+	The Tangled Web: A Guide to Securing Web Applications
+	
+	The Mobile Application Hacker’s Handbook
+	iOS Application Security
+
+Train
+	Hacksplaining
+	Penetration Testing Practice Labs
+
+video tutorial
+	https://forum.bugcrowd.com/t/researcher-resources-bounty-bug-write-ups/1137
+	https://forum.bugcrowd.com/t/researcher-resources-tutorials/370
+	https://www.reddit.com/r/netsec
+	https://www.youtube.com/user/JackkTutorials/videos
+	https://www.youtube.com/user/DEFCONConference/videos
+	Hak5 on YouTube
+	
+Tools
+	Bugcrowd Researcher Resources - Tools
+
+twitch
+	Join the #Bugcrowd IRC channel
+	Follow @Bugcrowd on Twitter
+	Join the Bugcrowd Forum
+
+
+
