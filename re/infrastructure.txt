@@ -1,0 +1,9 @@
+CLI:
+	compile cpp to assemble(windows linux)
+	https://linux.die.net/man/1/gcc
+
+in linux
+
+单文件
+	gcc -S file.c
+	g++ -S file.cpp
